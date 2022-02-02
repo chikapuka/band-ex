@@ -1,0 +1,36 @@
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import "./reset.css";
+
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+*{
+    box-sizing: border-box;
+}
+@import "./variable.css";
+
+body{
+    font-family: 'RixYeoljeongdo_Regular';
+    background-color: black;
+    color: white;
+}
+input {
+    border: none;
+    outline: none;
+    appearance: none;
+}
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative {
+    position: relative;
+}
+
